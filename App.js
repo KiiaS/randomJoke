@@ -1,8 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ActivityIndicator, Button, StyleSheet, Text, View } from 'react-native';
-
-const URL = 'https://sv443.net/jokeapi/v2/joke/Any'
 
 export default function App() {
   const [joke, setJoke] = useState(null)
